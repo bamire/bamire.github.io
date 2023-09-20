@@ -4,25 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>Math Course</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
         }
 
         header {
             background-color: #3498db;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 20px;
         }
 
         h1 {
-            margin: 0;
             font-size: 36px;
+            margin: 0;
         }
 
         .container {
@@ -39,33 +39,26 @@
         }
 
         p {
-            color: #333;
             font-size: 18px;
             line-height: 1.6;
+            color: #333;
         }
 
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
+        .info-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        .academic-info {
-            margin-top: 20px;
+        .info-section a {
+            text-decoration: none;
+            color: #0077cc;
         }
 
-        .research-interests {
-            margin-top: 20px;
+        .info-section p {
+            margin: 0;
         }
 
-        .publications {
-            margin-top: 20px;
-        }
-
-        .teaching {
-            margin-top: 20px;
-        }
-
-        /* Added CSS for the Problems and Solutions sections */
         .pdf-section {
             display: flex;
             justify-content: space-between;
@@ -83,99 +76,54 @@
         .links li {
             margin-bottom: 10px;
         }
-
-        .links a {
-            text-decoration: none;
-            color: #0077cc;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Page</h1>
-        <p>Mathematics & More</p>
+        <h1>Math Course</h1>
     </header>
 
     <div class="container">
-        <section class="academic-info">
-            <h2>Information</h2>
-            <p>Here you can find information about my projects.</p>
+        <section class="info-section">
+            <h2>General Info</h2>
+            <a href="course_info.html">Course Details</a>
         </section>
 
-        <section class="research-interests">
-            <h2>Research Interests</h2>
-            <ul>
-                <li>Artificial Intelligence</li>
-                <li>Machine Learning</li>
-                <li>Data Science</li>
-                <li>More...</li>
-            </ul>
+        <section class="info-section">
+            <h2>Instructor</h2>
+            <p>John Doe</p>
         </section>
 
-        <section class="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li>
-                    <strong>Publication 1:</strong> Title of Publication 1. Journal Name, Year.
-                </li>
-                <li>
-                    <strong>Publication 2:</strong> Title of Publication 2. Conference Name, Year.
-                </li>
-                <li>
-                    <strong>Publication 3:</strong> Title of Publication 3. Journal Name, Year.
-                </li>
-            </ul>
+        <section class="info-section">
+            <h2>Teaching Assistants</h2>
+            <p>Jane Smith, Bob Johnson</p>
         </section>
 
         <!-- Problems and Solutions Sections (Side by Side) -->
         <div class="pdf-section">
             <section>
-                <h2>Séries</h2>
+                <h2>Problems</h2>
                 <ul class="links">
-                    <li><a href="majority_grouping.pdf" target="_blank">Séries 1</a></li>
-                    <li><a href="majority_grouping.pdf" target="_blank">Séries 2</a></li>
-                    <li><a href="majority_grouping.pdf" target="_blank">Séries 3</a></li>
+                    <li><a href="problem_set1.pdf" target="_blank">Problem Set 1</a></li>
+                    <li><a href="problem_set2.pdf" target="_blank">Problem Set 2</a></li>
+                    <li><a href="problem_set3.pdf" target="_blank">Problem Set 3</a></li>
                 </ul>
             </section>
             <section>
-                <h2>Corrigé</h2>
+                <h2>Solutions</h2>
                 <ul class="links">
-                    <li><a href="majority_grouping.pdf" target="_blank">Corrigé 1</a></li>
-                    <li><a href="majority_grouping.pdf" target="_blank">Corrigé 2</a></li>
-                    <li><a href="majority_grouping.pdf" target="_blank">Corrigé 3</a></li>
+                    <li><a href="solution_set1.pdf" target="_blank">Solution to Problem Set 1</a></li>
+                    <li><a href="solution_set2.pdf" target="_blank">Solution to Problem Set 2</a></li>
+                    <li><a href="solution_set3.pdf" target="_blank">Solution to Problem Set 3</a></li>
                 </ul>
             </section>
         </div>
         <!-- End of Problems and Solutions Sections -->
-
-        <section class="teaching">
-            <h2>Teaching Experience</h2>
-            <ul>
-                <li>
-                    <strong>Course 1:</strong> Course Title, Semester, Year
-                </li>
-                <li>
-                    <strong>Course 2:</strong> Course Title, Semester, Year
-                </li>
-                <li>
-                    <strong>Course 3:</strong> Course Title, Semester, Year
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Contact</h2>
-            <p>Feel free to contact me:</p>
-            <ul>
-                <li>Email: your@email.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></li>
-                <li>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
-                <li>Website: <a href="https://www.yourwebsite.com" target="_blank">www.yourwebsite.com</a></li>
-            </ul>
-        </section>
     </div>
 </body>
 </html>
+
+
 
 
 
